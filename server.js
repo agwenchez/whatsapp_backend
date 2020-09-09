@@ -8,14 +8,6 @@ const Pusher = require('pusher')
 // bodyParser Middleware
 app.use(express.json({extended:false}));
 
-// pusher
-const pusher = new Pusher({
-    appId: '1069230',
-    key: '8acd645f473a987d4d23',
-    secret: '11fa6aa4728530b027b4',
-    cluster: 'eu',
-    useTLS: true
-  });
 
 
 // DB connection
